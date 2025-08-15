@@ -453,6 +453,7 @@ function App() {
             <div className="border-t border-gray-700 pt-8">
               <p className="text-sm text-gray-500">
                 © 2025 Simplific Pro. Todos os direitos reservados.
+                contato@simplificpro.com
               </p>
             </div>
           </div>
