@@ -83,7 +83,7 @@ function App() {
                   </span>
                 </h1>
                 <p className="text-xl lg:text-2xl text-emerald-100 leading-relaxed">
-                  O aplicativo completo que organiza suas finanças, planeja suas metas e te acompanha até no WhatsApp.
+                  O aplicativo completo que organiza suas finanças, te dá dicas, seguestõs, planeja suas metas e te acompanha até no WhatsApp. Uma plataforma para chamar de 'SUA'
                 </p>
               </div>
               
