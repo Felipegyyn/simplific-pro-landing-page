@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #294a37 0%, #315a43 100%); /* Verde ainda mais escuro no início */
+    background: linear-gradient(135deg, #315a43 0%, #4a7c59 100%); /* Verde mais claro no final */
     color: white;
     padding: 100px 0;
     position: relative;
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Final CTA Section */
 .final-cta {
     padding: 100px 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #315a43 0%, #4a7c59 100%); /* Verde mais claro no final */
     color: white;
     text-align: center;
 }
