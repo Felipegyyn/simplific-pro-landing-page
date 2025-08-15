@@ -181,23 +181,31 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
+/* Estilo unificado e corrigido para os ícones das funcionalidades */
 .feature-icon {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 20px;
-    padding: 20px;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 24px;
+  padding: 12px; /* Um pouco de respiro para o logo */
+
+  /* Fundo neutro com sombra para destacar os logos coloridos */
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+
+  /* Mantém a imagem centralizada */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .feature-icon img {
-    width: 40px;
-    height: 40px;
-    filter: brightness(0) invert(1);
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Garante que o logo caiba sem distorcer */
+  /* NENHUM FILTRO APLICADO */
 }
+
 
 .feature-title {
     font-size: 1.5rem;
@@ -502,28 +510,3 @@ h1, h2, h3, h4, h5, h6 {
         padding: 40px 30px;
     }
 }
-
-/* =============================================== */
-/* AJUSTE PARA EXIBIÇÃO CORRETA DOS ÍCONES DE IMAGEM */
-/* =============================================== */
-
-.feature-icon {
-  /* Garante que o container tenha um tamanho mínimo */
-  width: 64px;
-  height: 64px;
-
-  /* Adicionado para centralizar a imagem perfeitamente dentro do espaço */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.feature-icon img {
-  /* Faz a imagem ocupar 100% do espaço do container que definimos acima */
-  width: 100%;
-  height: 100%;
-
-  /* Garante que a imagem caiba no espaço sem ser esticada ou cortada */
-  object-fit: contain; 
-}
-
