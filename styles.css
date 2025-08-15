@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #315a43 0%, #4a7c59 100%); /* Verde mais claro no final */
+    background: linear-gradient(135deg, #294a37 0%, #315a43 100%); /* Verde ainda mais escuro no início */
     color: white;
     padding: 100px 0;
     position: relative;
