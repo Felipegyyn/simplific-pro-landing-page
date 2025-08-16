@@ -83,7 +83,7 @@ function App() {
                   </span>
                 </h1>
                 <p className="text-xl lg:text-2xl text-emerald-100 leading-relaxed">
-                  O aplicativo completo que organiza suas finanças, te dá dicas, seguestõs, planeja suas metas, te lembra de compromissos e te acompanha até no WhatsApp. Uma plataforma para chamar de 'SUA'
+                  O aplicativo completo que organiza suas finanças, te dá dicas, sugestões, planeja suas metas, te lembra de compromissos e te acompanha até no WhatsApp. Uma plataforma para chamar de 'SUA'
                 </p>
               </div>
               
@@ -161,6 +161,18 @@ function App() {
               </CardContent>
             </Card>
 
+            {/* Dashboard */}
+            <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-0 shadow-lg">
+              <CardContent className="p-8">
+                <div className="flex items-center justify-center w-16 h-16 bg-emerald-100 rounded-2xl mb-6 group-hover:bg-emerald-200 transition-colors">
+                  <BarChart3 className="w-8 h-8 text-emerald-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Balanço Geral</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Acompanhe o balanço da sua vida financeira por período, fluxo de caixa, investimentos, metas e cartões de crédito em relatórios inteligentes
+                </p>
+              </CardContent>
+            </Card>
             {/* Lançamentos */}
             <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-0 shadow-lg">
               <CardContent className="p-8">
