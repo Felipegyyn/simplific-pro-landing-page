@@ -79,11 +79,11 @@ function App() {
                 <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                   Cansado da desordem financeira? 
                   <span className="text-emerald-300 block">
-                    Assuma o controle total do seu dinheiro
+                    Assuma o controle e alcance a tão sonhada liberdade financeira
                   </span>
                 </h1>
                 <p className="text-xl lg:text-2xl text-emerald-100 leading-relaxed">
-                  O aplicativo completo que organiza suas finanças, te dá dicas, seguestõs, planeja suas metas e te acompanha até no WhatsApp. Uma plataforma para chamar de 'SUA'
+                  O aplicativo completo que organiza suas finanças, te dá dicas, seguestõs, planeja suas metas, te lembra de compromissos e te acompanha até no WhatsApp. Uma plataforma para chamar de 'SUA'
                 </p>
               </div>
               
@@ -183,8 +183,9 @@ function App() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Planeje seus gastos</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Anotar depois que gastou não te garante liberdade financeira. Por isso, o módulo planejamento te ajuda a adquirir liberdade financeira.
-                </p>
+                  Anotar depois que gastou não te garante liberdade financeira. 
+                  Por isso, o módulo planejamento te ajuda a adquirir essa tão sonhada liberdade.
+                  </p>
               </CardContent>
             </Card>
 
@@ -235,7 +236,7 @@ function App() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Agenda de compromissos</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Nunca mais esqueça um vencimento. Organize pagamentos, recebimentos, reuniões, compromissos e o que você quiser em uma agenda inteligente. Seja lembrado de cada compromisso diretamente no wWhatsapp.
+                  Nunca mais esqueça um vencimento. Organize pagamentos, recebimentos, reuniões, compromissos e o que você quiser em uma agenda inteligente. Seja lembrado de cada compromisso diretamente no Whatsapp.
                 </p>
               </CardContent>
             </Card>
