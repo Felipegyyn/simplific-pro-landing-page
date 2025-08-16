@@ -155,7 +155,7 @@ function App() {
                   <BarChart3 className="w-8 h-8 text-emerald-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Dashboard Inteligente</h3>
-                <p className="text-xl lg:text-2xl text-emerald-100 leading-relaxed">
+                <p className="text-gray-600 leading-relaxed">
                   Visualize toda sua situação financeira em uma tela. Receitas, despesas, investimentos e metas, tudo organizado e fácil de entender. E ainda, tenha acesso à sua saúde financeira atual. 
                 </p>
               </CardContent>
