@@ -155,7 +155,7 @@ function App() {
                   <BarChart3 className="w-8 h-8 text-emerald-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Dashboard Inteligente</h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-xl lg:text-2xl text-emerald-100 leading-relaxed">
                   Visualize toda sua situação financeira em uma tela. Receitas, despesas, investimentos e metas, tudo organizado e fácil de entender. E ainda, tenha acesso à sua saúde financeira atual. 
                 </p>
               </CardContent>
@@ -278,7 +278,7 @@ function App() {
                       </div>
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-6 h-6 text-green-200" />
-                        <span className="text-lg">Sua plataforma direto no whatsapp = Mais praticidade</span>
+                        <span className="text-lg">Sua plataforma direto no whatsapp</span>
                       </div>
                     </div>
                   </div>
