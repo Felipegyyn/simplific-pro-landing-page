@@ -156,7 +156,7 @@ function App() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Dashboard Inteligente</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Visualize toda sua situação financeira em uma tela. Receitas, despesas, investimentos e metas, tudo organizado e fácil de entender.
+                  Visualize toda sua situação financeira em uma tela. Receitas, despesas, investimentos e metas, tudo organizado e fácil de entender. E ainda, tenha acesso à sua saúde financeira atual. 
                 </p>
               </CardContent>
             </Card>
@@ -167,9 +167,23 @@ function App() {
                 <div className="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-2xl mb-6 group-hover:bg-blue-200 transition-colors">
                   <DollarSign className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Lançamentos Simples</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Lançamentos inteligentes</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Registre receitas e despesas em segundos. Categorize automaticamente e acompanhe seus gastos sem complicação.
+                  Registre receitas e despesas em segundos, na plataforma no pelo whatsapp. Categorize automaticamente e acompanhe seus gastos sem complicação.
+                </p>
+              </CardContent>
+            </Card>
+
+
+            {/* Planejamento */}
+            <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-0 shadow-lg">
+              <CardContent className="p-8">
+                <div className="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-2xl mb-6 group-hover:bg-blue-200 transition-colors">
+                  <DollarSign className="w-8 h-8 text-blue-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Planeje seus gastos</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Anotar depois que gastou não te garante liberdade financeira. Por isso, o módulo planejamento te ajuda a adquirir liberdade financeira.
                 </p>
               </CardContent>
             </Card>
@@ -219,9 +233,9 @@ function App() {
                 <div className="flex items-center justify-center w-16 h-16 bg-red-100 rounded-2xl mb-6 group-hover:bg-red-200 transition-colors">
                   <Calendar className="w-8 h-8 text-red-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Agenda Financeira</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Agenda de compromissos</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Nunca mais esqueça um vencimento. Organize pagamentos, recebimentos e compromissos financeiros em uma agenda inteligente.
+                  Nunca mais esqueça um vencimento. Organize pagamentos, recebimentos, reuniões, compromissos e o que você quiser em uma agenda inteligente. Seja lembrado de cada compromisso diretamente no wWhatsapp.
                 </p>
               </CardContent>
             </Card>
@@ -238,14 +252,14 @@ function App() {
                         <MessageCircle className="w-8 h-8 text-white" />
                       </div>
                       <Badge className="bg-white/20 text-white px-4 py-2 text-sm font-medium">
-                        🎯 Grande Diferencial
+                        🎯 Grande Diferencial - 📱 O Assessor Pesosal Simplific
                       </Badge>
                     </div>
                     <h3 className="text-3xl lg:text-4xl font-bold mb-6">
                       Seu Assessor Financeiro no WhatsApp
                     </h3>
                     <p className="text-xl text-green-100 leading-relaxed mb-8">
-                      Registre gastos, consulte seu orçamento e tire dúvidas conversando com o Simplific, nosso assistente com IA, diretamente do seu WhatsApp, por texto ou por áudio.
+                      Registre gastos, consulte seu orçamento, acompanhe seus investimentos, acompanhe a bolsa de valores, agende compromissos, receba lembretes, tire dúvidas e tenha acesso a dicas sobre como ter uma vida financeira saúdavel conversando com o Simplific, nosso assessor pessoal com IA, diretamente do seu WhatsApp, por texto ou por áudio, você escolhe. 
                     </p>
                     <div className="space-y-4">
                       <div className="flex items-center gap-3">
@@ -259,6 +273,10 @@ function App() {
                       <div className="flex items-center gap-3">
                         <CheckCircle className="w-6 h-6 text-green-200" />
                         <span className="text-lg">Comandos por voz ou texto</span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <CheckCircle className="w-6 h-6 text-green-200" />
+                        <span className="text-lg">Sua plataforma direto no whatsapp = Mais praticidade</span>
                       </div>
                     </div>
                   </div>
@@ -277,7 +295,7 @@ function App() {
                             <MessageCircle className="w-5 h-5" />
                             <span className="font-semibold">Simplific IA</span>
                           </div>
-                          <p className="text-sm">"✅ Lançamento registrado! Categoria: Alimentação. Você ainda tem R$ 155 disponíveis no orçamento deste mês."</p>
+                          <p className="text-sm">"✅ Lançamento registrado! Categoria: Alimentação. Você ainda tem R$ 155 disponíveis no orçamento deste mês. 🚨Alerta! Ainda estamos no inicio do mês e você já comprometeu 80% do seu orçamento para alimentação."</p>
                         </div>
                       </div>
                     </div>
