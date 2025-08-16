@@ -253,14 +253,15 @@ function App() {
                         <MessageCircle className="w-8 h-8 text-white" />
                       </div>
                       <Badge className="bg-white/20 text-white px-4 py-2 text-sm font-medium">
-                        🎯 Grande Diferencial - 📱 O Assessor Pesosal Simplific
+                        🎯📱 O Assessor Simplific
                       </Badge>
                     </div>
                     <h3 className="text-3xl lg:text-4xl font-bold mb-6">
                       Seu Assessor Financeiro no WhatsApp
                     </h3>
                     <p className="text-xl text-green-100 leading-relaxed mb-8">
-                      Registre gastos, consulte seu orçamento, acompanhe seus investimentos, acompanhe a bolsa de valores, agende compromissos, receba lembretes, tire dúvidas e tenha acesso a dicas sobre como ter uma vida financeira saúdavel conversando com o Simplific, nosso assessor pessoal com IA, diretamente do seu WhatsApp, por texto ou por áudio, você escolhe. 
+                      Registre gastos, consulte seu orçamento, agende compromissos, receba lembretes e tire dúvidas diretamente do seu WhatsApp, por texto ou por áudio
+                       você escolhe. 
                     </p>
                     <div className="space-y-4">
                       <div className="flex items-center gap-3">
@@ -296,7 +297,8 @@ function App() {
                             <MessageCircle className="w-5 h-5" />
                             <span className="font-semibold">Simplific IA</span>
                           </div>
-                          <p className="text-sm">"✅ Lançamento registrado! Categoria: Alimentação. Você ainda tem R$ 155 disponíveis no orçamento deste mês. 🚨Alerta! Ainda estamos no inicio do mês e você já comprometeu 80% do seu orçamento para alimentação."</p>
+                          <p className="text-sm">"✅ Lançamento registrado! Categoria: Alimentação. Você tem R$ 155 disponíveis no orçamento. 🚨Alerta! Ainda estamos no inicio do mês 
+                          e você já comprometeu 80% do seu orçamento para alimentação."</p>
                         </div>
                       </div>
                     </div>
