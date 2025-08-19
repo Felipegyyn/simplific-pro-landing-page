@@ -181,7 +181,7 @@ function App() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Lançamentos inteligentes</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Registre receitas e despesas em segundos, na plataforma no pelo whatsapp. Categorize automaticamente e acompanhe seus gastos sem complicação.
+                  Registre receitas e despesas em segundos, na plataforma ou pelo whatsapp. Categorize automaticamente e acompanhe seus gastos sem complicação.
                 </p>
               </CardContent>
             </Card>
