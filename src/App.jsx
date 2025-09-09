@@ -386,7 +386,7 @@ function App() {
               size="lg" 
               className="bg-emerald-500 hover:bg-emerald-400 text-white px-12 py-6 text-xl font-bold rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
             >
-              Adquirir Agora por R$ 1,99 no primeiro mês
+              Quero aproveitar por R$ 1,99
             </Button>
 
             <div className="mt-8 flex flex-wrap justify-center gap-6 text-emerald-200">
