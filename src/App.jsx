@@ -61,8 +61,10 @@ function App() {
   }
 
   const handleCTAClick = () => {
-    window.open('https://app.monetizze.com.br/checkout/DPA355167', '_blank')
+    window.open(/*CUPOM SIMPLIFIC30*/'https://app.monetizze.com.br/checkout/CDR481590', '_blank')
   }
+
+  /* link checkou original: https://app.monetizze.com.br/checkout/DPA355167*/
 
   return (
     <div className="min-h-screen bg-white">
@@ -252,6 +254,21 @@ function App() {
                 </p>
               </CardContent>
             </Card>
+
+            {/* Simplific IA*/}
+            <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-0 shadow-lg">
+              <CardContent className="p-8">
+                <div className="flex items-center justify-center w-16 h-16 bg-red-100 rounded-2xl mb-6 group-hover:bg-red-200 transition-colors">
+                  <Calendar className="w-8 h-8 text-red-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Simplific IA</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Tenha acesso ao chat inteligência Simplific na própria plataforma e faça tudo por lá: Registre, agende, invista... O que quiser
+                </p>
+              </CardContent>
+            </Card>
+
+
           </div>
 
           {/* WhatsApp Diferencial */}
@@ -369,7 +386,7 @@ function App() {
               size="lg" 
               className="bg-emerald-500 hover:bg-emerald-400 text-white px-12 py-6 text-xl font-bold rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
             >
-              Adquirir Agora por R$ 24,90/mês
+              Adquirir Agora por R$ 1,99 no primeiro mês
             </Button>
 
             <div className="mt-8 flex flex-wrap justify-center gap-6 text-emerald-200">
