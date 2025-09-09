@@ -340,11 +340,14 @@ function App() {
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-12 mb-12">
             <div className="text-center mb-8">
               <div className="text-6xl lg:text-7xl font-bold text-emerald-300 mb-4">
-                R$ 24,90
+                R$ 1,99
               </div>
               <div className="text-2xl text-emerald-100 mb-6">
-                por mês
+                No primeiro mês
               </div>
+              <p className="text-lg text-emerald-200">
+                Após, continue desfrutando por apenas R$ 24,90 por mês. 
+              </p>
               <p className="text-lg text-emerald-200">
                 Menos de R$ 0,85 por dia para ter sua vida financeira em ordem
               </p>
