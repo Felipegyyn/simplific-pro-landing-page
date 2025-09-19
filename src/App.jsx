@@ -355,8 +355,8 @@ function App() {
           </div>
 
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-12 mb-12">
-          <p className="text-lg text-emerald-200">
-          De <span className="line-through">89,90</span> por apenas
+          <p className="text-xl text-emerald-200">
+          De <span className="text-gray-400 line-through decoration-red-500">89,90</span> por apenas
           </p>
             <div className="text-center mb-8">
               <div className="text-6xl lg:text-7xl font-bold text-emerald-300 mb-4">
