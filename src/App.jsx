@@ -61,10 +61,10 @@ function App() {
   }
 
   const handleCTAClick = () => {
-    window.open(/*CUPOM SIMPLIFIC30*/'https://app.monetizze.com.br/checkout/CDR481590', '_blank')
+    window.open(/*CUPOM SIMPLIFIC30*/'https://app.monetizze.com.br/checkout/DPA355167', '_blank')
   }
 
-  /* link checkou original: https://app.monetizze.com.br/checkout/DPA355167*/
+  /* link checkout cupom 1,99:  https://app.monetizze.com.br/checkout/CDR481590*/
 
   return (
     <div className="min-h-screen bg-white">
@@ -355,15 +355,18 @@ function App() {
           </div>
 
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-12 mb-12">
+          <p className="text-lg text-emerald-200">
+                De 89,90 por apenas
+              </p>
             <div className="text-center mb-8">
               <div className="text-6xl lg:text-7xl font-bold text-emerald-300 mb-4">
-                R$ 1,99
+                R$ 24,90
               </div>
               <div className="text-2xl text-emerald-100 mb-6">
-                No primeiro mês
+                Por mês
               </div>
               <p className="text-lg text-emerald-200">
-                Após, continue desfrutando por apenas R$ 24,90 por mês. 
+                Menos de um cafézinho por dia.
               </p>
               <p className="text-lg text-emerald-200">
                 Menos de R$ 0,85 por dia para ter sua vida financeira em ordem
@@ -386,7 +389,7 @@ function App() {
               size="lg" 
               className="bg-emerald-500 hover:bg-emerald-400 text-white px-12 py-6 text-xl font-bold rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
             >
-              Quero aproveitar por R$ 1,99
+              Quero aproveitar agora
             </Button>
 
             <div className="mt-8 flex flex-wrap justify-center gap-6 text-emerald-200">
