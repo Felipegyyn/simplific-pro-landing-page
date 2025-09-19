@@ -356,8 +356,8 @@ function App() {
 
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-12 mb-12">
           <p className="text-lg text-emerald-200">
-                De 89,90 por apenas
-              </p>
+          De <span className="line-through">89,90</span> por apenas
+          </p>
             <div className="text-center mb-8">
               <div className="text-6xl lg:text-7xl font-bold text-emerald-300 mb-4">
                 R$ 24,90
