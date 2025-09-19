@@ -355,9 +355,9 @@ function App() {
           </div>
 
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-12 mb-12">
-          <p className="text-2xl text-emerald-200">
-          De <span className="text-gray-500 line-through decoration-red-500">89,90</span> por apenas
-          </p>
+          <Badge className="bg-yellow-500 text-yellow-900 px-6 py-3 text-lg font-bold mb-6">
+              ⚡ De <span className="text-gray-400 line-through decoration-red-500">89,90</span> por apenas
+            </Badge>
             <div className="text-center mb-8">
               <div className="text-6xl lg:text-7xl font-bold text-emerald-300 mb-4">
                 R$ 24,90
